@@ -60,7 +60,7 @@ function App() {
     {
       id: 'instagram',
       title: 'Instagram',
-      url: '#',
+      url: 'https://www.instagram.com/vishwanath_k_10.9/',
       icon: <Instagram className="w-5 h-5" />,
       color: 'hover:bg-purple-900',
     },

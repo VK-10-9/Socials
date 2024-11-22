@@ -60,7 +60,7 @@ function App() {
     {
       id: 'instagram',
       title: 'Instagram',
-      url: 'https://www.instagram.com/vishwanath_k_10.9/',
+      url: '#',
       icon: <Instagram className="w-5 h-5" />,
       color: 'hover:bg-purple-900',
     },
@@ -74,21 +74,28 @@ function App() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-950 via-blue-950 to-gray-950">
+    <main className="min-h-screen bg-gradient-to-br from-gray-950 via-blue-950 to-gray-950">
       <div className="max-w-6xl mx-auto px-4 py-16 lg:py-24">
         <div className="grid lg:grid-cols-[1fr,2fr] gap-12 items-start">
-          <div className="lg:sticky lg:top-8">
+          <aside className="lg:sticky lg:top-8">
             <ProfileSection
               name="Vishwanath K"
               title="Co-Founder | Tech Innovator | Visionary Creator"
               description="Semester 1 Computer Science and Engineering student, blending technology and creativity to build innovative solutions. Co-Founder of Event Union, helping create the world's largest community for global event enthusiasts."
               imageUrl="https://i.ibb.co/ctdykGT/your-image.jpg"
             />
-          </div>
+          </aside>
           
           <div className="space-y-12">
-            <ProjectsGrid projects={projects} />
-            <SocialLinks links={links} />
+            <section aria-label="Projects">
+              <h2 className="sr-only">Projects</h2>
+              <ProjectsGrid projects={projects} />
+            </section>
+            
+            <section aria-label="Social Links">
+              <h2 className="sr-only">Social Links</h2>
+              <SocialLinks links={links} />
+            </section>
             
             <footer className="text-center text-gray-400">
               <p className="text-sm">
@@ -98,7 +105,7 @@ function App() {
           </div>
         </div>
       </div>
-    </div>
+    </main>
   );
 }
 

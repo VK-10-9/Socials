@@ -9,12 +9,13 @@ interface ProfileSectionProps {
 
 export function ProfileSection({ name, title, description, imageUrl }: ProfileSectionProps) {
   return (
-    <div className="text-center lg:text-left">
+    <article className="text-center lg:text-left">
       <div className="w-48 h-48 mx-auto lg:mx-0 mb-6 rounded-full overflow-hidden ring-4 ring-blue-900/30 shadow-2xl">
         <img
           src={imageUrl}
-          alt={name}
+          alt={`${name} - ${title}`}
           className="w-full h-full object-cover"
+          loading="eager"
           onError={(e) => {
             const target = e.target as HTMLImageElement;
             target.src = 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=400&fit=crop&crop=faces&auto=format&q=80';
@@ -26,6 +27,6 @@ export function ProfileSection({ name, title, description, imageUrl }: ProfileSe
       <p className="text-gray-400 leading-relaxed">
         {description}
       </p>
-    </div>
+    </article>
   );
 }

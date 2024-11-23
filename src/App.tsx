@@ -26,7 +26,7 @@ function App() {
       title: 'Event Union',
       description: 'Connecting Global Minds to a Single Place.',
       icon: <Users className="w-5 h-5" />,
-      url: 'https://eventunion.in',
+      url: 'https://eventunion.netlify.app/',
     },
     {
       title: 'Lakshar',

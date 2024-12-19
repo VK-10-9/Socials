@@ -18,15 +18,15 @@ import { SocialLinks } from './components/SocialLinks';
 function App() {
   const projects = [
     {
-      title: 'Vidya Vriksh',
-      description: 'Revolutionary online learning platform',
-      icon: <Code className="w-5 h-5" />,
-    },
-    {
       title: 'Event Union',
       description: 'Connecting Global Minds to a Single Place.',
       icon: <Users className="w-5 h-5" />,
       url: 'https://eventunion.netlify.app/',
+    },
+{
+      title: 'Vidya Vriksh',
+      description: 'Revolutionary online learning platform',
+      icon: <Code className="w-5 h-5" />,
     },
     {
       title: 'Lakshar',

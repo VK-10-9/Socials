@@ -82,7 +82,7 @@ function App() {
               name="Vishwanath K"
               title="Co-Founder | Tech Innovator | Visionary Creator"
               description="I am a Semester 1 Computer Science and Engineering student passionate about blending technology and creativity. As a Co-Founder of Event Union, I help build a vibrant community for global event enthusiasts, driving engagement and collaboration among members. I thrive on creating innovative solutions and am eager to contribute to impactful projects in the tech space"
-              imageUrl="https://i.ibb.co/ctdykGT/your-image.jpg"
+              imageUrl="https://media.licdn.com/dms/image/v2/D4E03AQEPt94rp7gVrg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1729171416405?e=1741219200&v=beta&t=4NF5XnrRlxGagBQ2yA3h-QdT09bPMKICfjDgsC4U7Aw"
             />
           </aside>
           

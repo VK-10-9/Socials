@@ -81,7 +81,7 @@ function App() {
             <ProfileSection
               name="Vishwanath K"
               title="Co-Founder | Tech Innovator | Visionary Creator"
-              description="I am a Semester 1 Computer Science and Engineering student passionate about blending technology and creativity. As a Co-Founder of Event Union, I help build a vibrant community for global event enthusiasts, driving engagement and collaboration among members. I thrive on creating innovative solutions and am eager to contribute to impactful projects in the tech space"
+              description="As a second-semester Computer Science and Engineering student, I am deeply passionate about integrating technology with creativity. Co-founding Event Union has allowed me to cultivate a dynamic global community for event enthusiasts, fostering engagement and collaboration among members. My journey has been enriched by hands-on experiences in software development, where I've contributed to projects that blend user-centric design with robust technical solutions. I am committed to continuous learning and am eager to collaborate on innovative projects that drive meaningful impact in the tech industry."
               imageUrl="https://i.ibb.co/tmBQPYc/profile-pic.jpg"
             />
           </aside>
